@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+    <head>
+        <link rel=" stylesheet" href="css/style.css">
+        <meta charset="utf-8" />
+        <title>Yhteystiedot</title>
+    </head>
+    <body>
+        <div id="pää">
+        <ul>
+        <li><a href="Etusivu.html">Etusivu</a></li>
+		<li><a href="PerustaRyhmä.html">Perusta Ryhmä</a></li>
+        <li><a href="KolmasSivu.html">Sivu 3</a></li>
+        <li><a href="kuvat.html">Kuvat</a></li>
+		
+
+        </ul>
+        
+        </div>
+        <div id="content">
+            <br><br>
+		<h1>Luo Tapahtuma</h1>
+		
+	
+		  <form action="php/action_handler.php" method="POST">
+            <dl>
+            <dt>Anna Tapahtuman Nimi:
+            <dd><input type="text" name="nimi">
+            <br><br>
+            <dt>Valitse Ryhmä:                
+                <select name="ryhmä" >
+                    <option value="shakki">Shakki</option>
+                    <option value="jalkapallo">Jalkapallo</option>
+                    <option value="ompelu">Ompelu</option>
+                    <option value="koripallo">Koripallo</option>
+                </select>
+            <br><br>
+            <dt>Anna Aloitusaika:
+            <dd><input type="date" name="aika">
+            <dt>Anna Lopetusaika:           
+            <dd><input type="date" name="lopetusaika">
+            <dt>Paikka:
+            <dd><input type="text" name="paikka">
+
+            <dt>Lisätiedot:
+            <dd><textarea rows="5" cols="20" name="kommentti"></textarea>
+            </dl>
+            <p><input type="submit" ></p>
+		  </form>
+        
+       </div>
+        <div id="footer">
+        <div class= "box"><p>Yhteystiedot :</p>
+		<h4>Tapahtumakalenteri</h4>
+        <p>Osoite: Urheilukatu, 00500 Helsinki</p>
+        <p>Puhelin: 044 1234567</p>
+		<p>Email: tapahtumakalenteri@gmail.com</p>
+		<p>© Copyright Tapahtumakalenteri 2019</p>
+       
+        
+        </div>
+        
+    </body>
+</html>

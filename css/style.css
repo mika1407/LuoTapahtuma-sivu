@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+}
+
+#pää{
+    height: 250px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0000ff;
+    background-image:url("https://images4.alphacoders.com/164/16468.jpg");
+    margin-top: 40px;
+    
+   overflow: hidden;
+   
+}
+#content{
+    height: 900px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffcc;
+}
+#footer{
+    height: 300px;
+    width: 100%;
+    margin: 0px;
+    background-color: #292828;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#000066;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: 	#ffff00;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 15px;
+        
+}
+li a:hover {
+    background-color: #fff;
+}
+
+.box{
+margin-left: 40px;
+color: #fff;
+height: 100%;
+width: 40%;
+}
+
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	border: 2px solid blue;
+    border-radius: 4px;
+	padding-left: 10px;
+}
